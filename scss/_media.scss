@@ -1,0 +1,2322 @@
+@media print {
+    
+}
+
+
+@media(max-width: 1550px){
+    .advantages__busines{
+        left: 0;
+        &-inner{
+            margin-left: 0;
+        }
+    }
+    .top__inner,
+    .support__inner,
+    .contacts__map{
+        margin-left: 0;
+    }
+    .contacts__map{
+        padding: 0 20px;
+    }
+    .contacts__map-block{
+        margin-left: -20px;
+    }
+    .top__box,
+    .support__box,
+    .advantages__box,
+    .documents__box,
+    .contract__inner,
+    .contract__box,
+    .online__inner,
+    .online__block,
+    .buy__inner,
+    .buy__box,
+    .video__inner,
+    .video__boxб,
+    .trip__inner,
+    .trip__box,
+    .video__box{
+        margin-left: 0;
+    }
+    .trip__inner{
+        margin-top: 0;
+        padding: 20px 0;
+        height: auto;
+    }
+    .trip__box{
+        position: relative;
+        top: 0;
+    }
+    .video__content{
+        margin-right: 15px;
+    }
+    .video__box{
+        justify-content: space-between;
+    }
+    .reservation__inner,
+    .advantages__inner,
+    .footer__inner,
+    .about__inner,
+    .documents__inner{
+        margin-right: 0;
+    }
+    .advantages__box{
+        margin-right: 0;
+    }
+    .about__inner-content{
+        padding-left: 0;
+    }
+    .awards__block{
+        max-width: 100%;
+        top: -44%;
+    }
+    .awards__img{
+        margin-right: 30px;
+        margin-top: 135px;
+    }
+    .awards__inner{
+        padding-bottom: 30px;
+        justify-content: space-around;
+    }
+    .awards__text{
+        margin-top: 115px;
+        justify-content: center;
+    }
+}
+
+
+@media(max-width: 1300px){
+    .reservation__btn {
+        margin-left: 30px;
+    }
+    .buy__col{
+        max-width: 48%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .trips__item-title{
+        padding: 0;
+    }
+    .trips-list{
+        padding: 0 !important;
+    }
+    .buy__img{
+        display: none;
+    }
+    .buy__box{
+        margin-left: 20px;
+    }
+    .support__item{
+        max-width: 32%;
+    }
+    .trips{
+        margin-bottom: 60px;
+    }
+    .reservation__box{
+        position: absolute;
+        bottom: -400px;
+        width: 95%;
+        left: 20px;
+        ul{
+            li{
+                max-width: 96%;
+                color: #000;
+            }
+        }
+    }
+    .reservation__inner{
+        position: relative;
+        padding: 25px 10px;
+    }
+    .reservation{
+        padding-bottom: 365px !important;
+        img{
+            width: 500px;
+            height: 440px;
+        }
+    }
+    .reservation__blok{
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media(max-width: 1250px){
+    .why__item-img{
+        img{
+            width: 100%;
+        }
+    }
+    .trip__item{
+        max-width: 32%;
+    }
+    .trip__item-img{
+        width: auto;
+        height: auto;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .modules__item{
+        max-width: 30%;
+        iframe{
+            width: 100%;
+            height: auto;
+        }
+    }
+    .header__top-inner,
+    .header__menu-inner{
+        padding: 0 20px;
+    }
+    .header__menu-inner ul.menu-list>li{
+        margin-right: 18px;
+    }
+    .header__menu.fixed{
+        .header__menu-inner{
+            .header__menu-number{
+                display: none;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    head {
+        min-width: 320px; /* Какое-то начальное значение */
+    }
+}
+@media screen and (min-width: 1001px) {
+    head {
+        min-width: 1001px; /* Какое-то начальное значение */
+    }
+}
+
+
+
+
+@media(max-width: 1233px){
+    .support__item{
+        flex-direction: column;
+        &-img{
+            margin-bottom: 10px;
+        }
+    }
+    .task__item{
+        max-width: 193px;
+    }
+    .task__textblock{
+        max-width: 470px;
+    }
+    .services__item{
+        max-width: 32%;
+        padding: 25px;
+    }
+    .services__item-text{
+        max-width: 200px;
+    }
+    .services__item-img{
+        right: 15px;
+        top: 25px;
+    }
+    .trips__inner{
+        .trips__item{
+            max-width: 300px;
+            img{
+                max-width: 300px;
+            }
+        }
+        margin: 0 auto;
+    }
+
+}
+
+@media(max-width:1200px){
+    .slick-arrow{
+        top: 50px !important;
+        transform: none !important;
+    }
+    .next-arrow{
+        right: 50px !important;
+    }
+    .prev-arrow{
+        left: 50px !important;
+    }
+    .reviews__counter{
+        transform: translateX(50%);
+        right: 50%;
+        font-size: 35px;
+    }
+    .reviews{
+        margin-bottom: 50px;
+    }
+    .reviews__slider{
+        padding-top: 150px;
+    }
+    .footer__bottom{
+        margin-top: 60px;
+        &-info{
+            margin-top: 85px;
+        }
+    }
+    .footer__box{
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .footer__col{
+        margin-left: 20px !important;
+    }
+    .footer__bottom-block{
+        margin-right: 30px;
+        margin-top: 0;
+        padding: 30px 25px;
+        max-width: 340px;
+    }
+    .footer__inner{
+        padding-bottom: 40px;
+    }
+}
+
+@media(max-width: 1150px){
+    .map__inner{
+        flex-direction: column;
+    }
+    .map__img{
+        margin-bottom: 30px;
+    }
+    .map__line{
+        margin-bottom: 15px;
+    }
+    .support,
+    .documents-info{
+        margin-bottom: 30px !important;
+    }
+    .documents-info__text{
+        max-width: 307px;
+        padding: 20px;
+    }
+    .why__inner{
+        margin-bottom: 60px;
+    }
+    .documents__items{
+        flex-direction: column;
+    }
+    .documents__content{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .documents__item{
+        margin-right: 15px;
+        margin-bottom: 25px;
+    }
+    .documents__inner{
+        padding: 30px 0;
+    }
+    .documents__items{
+        margin-bottom: 30px;
+    }
+    .documents__textblock{
+        margin-right: 0;
+        margin-bottom: 15px;
+        max-width: 100%;    
+    }
+    .info__work{
+        padding-top: 0;
+        margin-right: 50px;
+    }
+    .documents-info__col{
+        margin-right: 30px;
+    }
+    .why__title{
+        margin-left: 20px;
+    }
+    .why__item-inner {
+        padding-left: 20px !important;
+    }
+}
+
+
+
+@media(max-width: 1070px){
+    .top__box{
+        padding-top: 10px;
+    }
+    .director__self{
+        order: -1;
+    }
+    .director__inner{
+        flex-direction: column;
+    }
+    .footer__bottom-line{
+        display: flex;
+        justify-content: space-between;
+        a:first-child{
+            margin-right: 10px !important;
+        }
+    }
+}
+
+@media(max-width: 1024px){
+    .partners__title{
+        margin-bottom: 50px !important;
+    }
+    .reservation ul{
+        margin-bottom: 0;
+    }
+    .map__img{
+        height: 500px;
+        img{
+            width: 100%;
+        }
+    }
+    .about__inner-content{
+        padding-top: 30px;
+    }
+    .awards__img{
+       padding-left: 0;
+    }
+    .title{
+        margin-bottom: 20px;
+        margin-top: 100px;
+    }
+    .about__text{
+        margin-bottom: 40px;
+    }
+    .about__inner{
+        background-position: top;
+    }
+    .support__inner{
+        padding-top: 65px;
+    }
+    .advantages__inner{
+        padding-top: 60px;
+        .container{
+            padding: 0 40px;
+        }
+    }
+    .advantages__busines{
+        bottom: -27%;   
+    }
+    .advantages{
+        margin-bottom: 280px;
+    }
+    .services{
+        margin-bottom: 30px;
+    }
+    .footer__inner{
+        padding-top: 50px;
+    }
+    .footer__bottom{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+
+@media(max-width: 1000px){
+    .reviews__inner{
+        &::before{
+            width: 50%;
+        }
+    }
+    .partners__item{
+        max-width: 20%;
+    }
+    .contract{
+        margin-bottom: 0 !important;
+        &__inner{
+            padding-bottom: 30px !important;
+        }
+    }
+    .documents__inner{
+        padding-bottom: 1px;
+    }
+    .company-box{
+        border-top: none !important;
+        border-bottom: none !important;
+    }
+    .mice{
+        display: none !important;
+    }
+    .services-menu{
+        border-bottom: 1px solid #000;
+    }
+    .advantages__busines-aside{
+        margin-right: 75px;
+    }
+    .services-box img{
+        display: none;
+    }
+    .menu-list .li-img{
+        right: 21px;
+        top: 20px;
+    }
+    .menu-btn{
+        display: block;
+    }
+    .services__item-title,
+    .services__item-text{
+        margin-bottom: 0 !important;
+    }
+    .task{
+        margin-bottom: 30px;
+    }
+    // .services-box{
+    //     display: none !important;
+    // }
+    // .services-menu{
+    //     display: none !important;
+    // }
+    .support__item{
+        flex-direction: row;
+    }
+     .task__inner{
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .task__items{
+        max-width: 100%;
+    }
+    .task__textblock{
+        max-width: 100%;
+    }
+    .task__item{
+        max-width: 24%;
+    }
+    .trips__item:nth-child(5),
+    .trips__item:nth-child(6),
+    .trips__item:nth-child(7){
+        display: none;
+    }
+    .trips__inner{
+        justify-content: center;
+        .trips__item{
+            margin-left: 5px;
+            margin-right: 5px;
+            max-width: 340px;
+            img{
+                max-width: 340px;
+            }
+        }
+    }
+    .city__inner{
+        margin-top: 60px;
+        flex-direction: column;
+        .footer__bottom-block{
+            order: 1;
+            max-width: 340px !important;
+            margin: 0 !important;
+            margin-top: 30px !important;
+        }
+    }
+    .city .fancybox-button{
+        top: 60px;
+        right: 0;
+    }
+    .video__box{
+        flex-direction: column;
+    }
+    .video__frame{
+        order: -1;
+        iframe{
+            width: 100%;
+            height: 300px;
+        }
+    }
+    .video__inner{
+        padding: 30px 0;
+    }
+    .video__content{
+        max-width: 100%;
+    }
+    .dop-services__inner{
+        flex-direction: column;
+    }
+    .dop-services__title{
+        max-width: 100%;
+    }
+    .booking__item{
+        max-width: 100%;
+        margin-bottom: 15px;
+        &-inner{
+            max-width: 100%;
+        }
+    }
+    .booking__inner{
+        flex-direction: column;
+    }
+    .tickets{
+        margin-bottom: 30px;
+    }
+    .buy__inner{
+        padding: 30px 0;
+    }
+    .documents,
+    .instruction,
+    .contract,
+    .modules,
+    .buy,
+    .booking,
+    .dop-services,
+    .travel,
+    .trip{
+        margin-bottom: 30px;
+    }
+    
+    .director{
+        margin-bottom: 30px;
+    }
+    .error-404{
+        height: 100vh;
+    }
+    .error-404__inner{
+        padding-top: 30px;
+    }
+    .menu-btn__text{
+        display: inline-block !important;
+        margin-left: 7px;
+        @include monst;
+    }
+    nav.menu{
+        ul.menu-list{
+            height: 100vh;
+            overflow-y: auto;
+            padding-bottom: 90px;
+            position: absolute;
+            width: 0;
+            left: -1000px;
+            top: 90px;
+            transition: all .5s;
+            overflow-x: hidden;
+            background-color: $blue;
+            &.active{
+                left: 0;
+                width: 320px;
+            }
+            li{
+                display: block;
+                background-color: $blue;
+                color: #fff;
+                font-size: 24px;
+                margin: 0;
+                padding: 20px;
+                a{
+                    color: #fff;
+                }
+                border-top: 1px solid #000;
+            }
+        }
+        .services-menu,
+        .company-menu{
+            position: relative;
+            left: 0;
+            top: 0;
+            margin-top: 20px;
+            border-bottom: none !important;
+            ul{
+                width: 320px;
+            }
+            li{
+                padding: 0 !important;
+                padding-top: 20px !important;
+                
+                a{
+                    font-size: 15px !important;
+                    color: $green !important;
+                }
+            }
+        }
+        .company-menu{
+            border: none;
+        }
+        .services-content{
+            display: none;
+            top: 0;
+            height: auto;
+            position: relative;
+            width: auto;
+            opacity: 1;
+            background-color: #000;
+            transition: none;
+            padding: 15px 20px;
+            a{
+                color: #fff !important;
+                font-size: 15px;
+            }
+            // &.active-tab{
+            //     height: auto;
+            // }
+        }
+        .services-box,
+        .company-box{
+            border-bottom: 1px solid #000;
+            &.active{
+                color: #fff !important;
+                svg{
+                    transform: rotate(180deg);
+                    path{
+                        stroke: $green;
+                    }
+                }
+            }
+        }
+        .services-box.active{
+            border-bottom: none;
+        }
+        .services-tab{
+            font-size: 17px !important;
+            color: $green !important;
+            cursor: pointer;
+            svg{
+                top: 5px;
+                transform: rotate(-90deg);
+                path{
+                    stroke: $green !important;
+                }
+            }
+            &.active{
+                color: #fff !important;
+                svg{
+                    transform: rotate(90deg);
+                }
+            }
+        }
+
+        .services-li:hover{
+            a{
+                color: #fff !important;
+            }
+        }
+        .services__inner{
+            border: none !important;
+        }
+        .services-list{
+            background-color: #000;
+        }
+    }
+    .footer__bottom-tel,
+    .info__col-number{
+        font-size: 36px;
+        line-height: 44px;
+        margin-bottom: 30px;
+    }
+    .footer__bottom-info .logo{
+        margin-bottom: 25px;
+    }
+    .services__inner{
+        flex-direction: column;
+    }
+    .services__item{
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+    .services__item-text{
+        max-width: 100%;
+    }
+    .advantages__busines{
+        height: auto;
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+    .advantages__busines-inner{
+        padding-top: 0;
+    }
+    .support,
+    .documents-info{
+        margin-bottom: 60px;
+    }
+
+    .support__inner{
+        padding-top: 50px;
+    }
+    .support__item{
+        max-width: 49%;
+    }
+    .top__box {
+        padding-top: 60px;
+    }
+    .top__inner{
+        padding-bottom: 68px;
+        height: auto;
+    }
+    .reservation{
+        padding-bottom: 500px;
+        img{
+            width: 463px;
+            height: 303px;
+        }
+    }
+}
+
+@media(max-width: 980px){
+    .footer__bottom-line{
+        flex-direction: column;
+        a{
+            max-width: 280px;
+            width: 100%;
+            display: block;
+            margin-bottom: 30px;
+        }
+    }
+}
+
+@media(max-width: 920px){
+    .documents-info .blue__link{
+        margin-top: 0;
+    }
+    .documents-info__text{
+        max-width: 100%;
+        padding: 20px;
+    }
+    .documents-info__inner{
+        flex-direction: column;
+    }
+    .documents-info__col{
+        margin-bottom: 40px;
+    }
+}
+
+@media(max-width: 900px){
+    .reservation__box ul{
+        margin-bottom: 10px;   
+    }
+    .reservation__box{
+        bottom: -420px;
+    }
+    .trip__item-content{
+        padding: 0;
+    }
+    .trip__item-title{
+        margin-bottom: 5px;
+    }
+    .trip__item-img{
+        margin-bottom: 5px;
+    }
+    .bilets{
+        margin-bottom: 30px;
+    }
+    .bilets__title{
+        max-width: 100%;
+    }
+    .contract__img{
+        margin: 20px auto;
+        height: 400px;
+        img{
+            height: 100%;
+        }
+    }
+    .about__inner{
+        background-position: left;
+    }
+    .bilets__inner{
+        flex-direction: column;
+    }
+    .bilets__title{
+        margin-bottom: 15px;
+    }
+    .contract__inner{
+        padding: 20px 0;
+        padding-top: 0;
+    }
+    .contract__box{
+        flex-direction: column;
+    }
+   
+    .footer__inner{
+        padding: 30px 0;
+    }
+    .header__top-info{
+        display: none;
+    }
+    .header__top-inner{
+        justify-content: space-between;
+    }
+    .reservation__title,
+    .contract__title{
+        font-size: 36px;
+        line-height: 44px;
+    }
+    .reservation{
+        img{
+            width: 338px;
+            height: 219px;
+        }
+    }
+    .reservation__box {
+        width: 750px;
+    }
+}
+
+@media(max-width: 860px){
+    .task__title{
+        div{
+            display: inline;
+        }
+    }
+}
+
+
+@media(max-width: 836px){
+    .documents__item-img{
+        margin-bottom: 5px;
+    }
+    .documents__textblock-title{
+        margin-bottom: 20px;
+    }
+    .instruction__col-title{
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 15px;
+        div{
+            display: inline-block;
+        }
+    }
+    .instruction__col{
+        margin-bottom: 10px !important;
+        p{
+            max-width: 100% !important;
+        }
+    }
+    .about__text-col{
+        max-width: 100% !important;
+    }
+    .footer__col{
+        max-width: 45%;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .advantages{
+        margin-bottom: 360px;
+    }
+    .online__inner{
+        padding: 30px 0;
+        height: 680px;
+    }
+    .online__block{
+        padding: 25px 20px;
+        margin-right: 0;
+    }
+    .about__text,
+    .instruction__inner{
+        flex-direction: column;
+    }
+    .about__text-col:first-child,
+    .instruction__col:first-child{
+        margin-bottom: 20px;
+    }
+    .instruction__col{
+        max-width: 100% !important;
+    }
+    .services{
+        margin-bottom: 30px;
+    }
+    .advantages__busines{
+        bottom: -26%;
+    }
+    .task__items{
+        justify-content: center;
+    }
+    .advantages__inner{
+        padding-top: 40px;
+    }
+    .advantages{
+        margin-bottom: 270px;
+    }
+}
+
+@media(max-width: 800px){
+    .partners__title{
+        font-size: 36px;
+    }
+    .partners__item{
+        max-width: 25%;
+    }
+    .trip__box{
+        flex-direction: column;
+    }
+    .trip__item{
+        max-width: 100%;
+        margin-bottom: 15px;
+        display: flex;
+        &-img{
+            margin-right: 15px;
+            max-width: 350px;
+            max-height: 200px;
+            width: 100%;
+        }
+        &-title{
+            max-width: 100% !important;
+            width: 100%;
+            font-size: 20px;
+        }
+    }
+    .modules__inner{
+        align-items: center;
+    }
+    .modules__item{
+        margin-bottom: 25px !important;
+    }
+    .awards__text{
+        margin-top: 0;
+        max-width: 400px;
+    }
+    .awards__img{
+        margin-top: 0;
+        margin-right: 15px;
+        max-width: 200px;
+        img{
+            width: 200px;
+        }
+    }
+    .task__item{
+        max-width: 50%;
+    }
+    .modules__inner{
+        flex-direction: column;
+    }
+    .modules__item{
+        max-width: 50%;
+        margin-bottom: 15px;
+    }
+    .modules__item-title{
+        margin-top: 5px;
+    }
+    .about__inner-content{
+        padding: 30px 0;
+    }
+    .awards__block{
+        position: relative;
+        order: -1;
+        margin-bottom: 55px;
+        padding: 20px 15px;
+    }
+    .about__inner{
+        margin-bottom: 0px;
+    }
+    .awards__inner{
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width: 768px){
+    .reservation__btn{
+       margin-left: 0;
+    }
+    .modules{
+        padding-top: 10px;
+    }
+    .trip__inner{
+        padding-bottom: 0;
+    }
+    .travel__inner-text{
+        margin-right: 0;
+        max-width: 100%;
+    }
+    .video{
+        margin-bottom: 30px;
+    }
+    .contract__title{
+        margin-bottom: 15px;
+    }
+    .map{
+        padding: 20px;
+    }
+    .director__inner{
+        padding: 25px;
+    }
+    .advantages__text{
+        max-width: 533px;
+    }
+    .services__item-title{
+        div{
+            display: inline-block;
+        }
+    }
+    .top{
+        margin-bottom: 35px;
+    }
+    .footer__bottom-line{
+        .blue__link:first-child{
+            &::after{
+               width: 93%;
+            }
+        }
+    }
+    .trips__inner{
+        justify-content: space-between;
+    }
+    .footer__block-title{
+        font-size: 32px;
+    }
+    .footer__bottom-line a:first-child{
+        margin-bottom: 5px;
+    }
+    .footer__bottom-line{
+        margin-bottom: 0;
+    }
+    .footer__bottom-block button{
+       max-width: 100%;
+    }
+    .footer__bottom-copyright{
+        span{
+            display: block;
+        }
+    }
+    .why__item{
+        .black-line{
+            padding-left: 0;
+            &::before{
+                display: none;
+            }
+        }
+        .green-check{
+            padding-left: 0;
+            &::before{
+                display: none;
+            }
+        }
+    }
+    .top__text{
+        max-width: 390px;
+    }
+    .travel__inner{
+        flex-direction: column;
+    }
+    .trips__item.empty{
+        display: none;
+    }
+    .title{
+        margin-bottom: 15px;
+    }
+
+    .advantages__busines-inner{
+        flex-direction: column;
+    }
+    .advantages__busines-aside{
+        margin-left: 0;
+        display: flex;
+        justify-content: space-between;
+        max-width: 100%;
+    }
+    .advantages__link{
+        position: absolute;
+        bottom: 30px;
+        max-width: 420px;
+        width: 100%;
+    }
+    .advantages__busines {
+        padding-bottom: 115px;
+        &-line{
+            div{
+                display: inline;
+            }
+        }
+    }
+    .why__item{
+        &-title{
+            font-size: 24px;
+            line-height: 29px !important;
+            margin-bottom: 25px !important; 
+        }
+    }
+    .why__item-line{
+        margin-bottom: 20px;
+    }
+    .text{
+        font-size: 24px;
+        margin-bottom: 15px;
+        line-height: 32px;
+    }
+   
+    .top__title,
+    .trips__title,
+    .why__title,
+    .support__title,
+    .documents-info__title,
+    .advantages__title,
+    .services__title,
+    .error-404__title,
+    .title,
+    .modules__title,
+    .bilets__title,
+    .buy__title,
+    .dop-services__title,
+    .video__title,
+    .reviews__title,
+    .partners__title{
+        font-size: 36px;
+        line-height: 44px;
+    }
+    .top__text,
+    .director__title{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .top__box{
+        padding-top: 15px;
+    }
+    .trips__title{
+        margin-bottom: 30px;
+    }
+    .trips__item{
+        margin-bottom: 5px;
+    }
+    .footer__bottom {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .trips__item li{
+        font-size: 15px;
+    }
+    .trips__item-title{
+        font-size: 17px;
+        padding: 0;
+        margin-bottom: 5px;
+    }
+    .trips__item:hover{
+        box-shadow: none;
+    }
+    .trips__item-img{
+        margin-bottom: 6px;
+    }
+    .advantages__inner .container{
+        padding: 0 20px;
+    }
+}
+
+@media(max-width: 766px){
+    .reviews__item-inner{
+        flex-direction: column;
+    }
+    .reviews__inner{
+        &::before{
+            width: 50%;
+        }
+    }
+    .reviews__item-line{
+        padding-left: 20px;
+    }
+    .reviews__item-content{
+        order: -1;
+    }
+    .reviews__item-text{
+        max-width: 100%;
+    }
+    .reviews__item-img{
+        margin: 0 30px;
+        margin-top: 30px;
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .trips__item{
+        margin: 0 5px;
+        max-width: 210px !important;
+        img{
+            max-width: 210px !important;
+        }
+        ul{
+            padding: 0 5px;
+        }
+    }
+    .trips__inner{
+        max-width: 620px;
+    }
+    .reservation{
+        padding-bottom: 380px !important;
+    }
+    .reservation__box{
+        text-align: left;
+        ul{
+            column-gap: 0;
+        }
+    }
+    .reservation__inner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 0;
+    }
+    .reservation__img{
+        order: 1;
+        margin-right: 0;
+        img{
+            display: none;
+        }
+        background-image: url(../images/reservation-small.png);
+        width: 451px;
+        height: 257px;    
+        background-size: cover;
+    }
+    .reservation__blok{
+        text-align: center;
+    }
+}
+
+@media(max-width: 750px){
+    .reservation__box{
+        width: 98%;
+        max-width: 440px;
+        bottom: -680px;
+        ul{
+            margin-bottom: 0;
+            column-count: 1;
+        }
+        .reservation__btn{
+            width: 90%;
+        }
+    }
+    .reservation{
+        padding-bottom: 620px !important;
+    }
+}
+
+@media(max-width: 730px){
+    .reviews__inner{
+        &::before{
+            width: 40%;
+        }
+    }
+    .info__col-number{
+        margin-bottom: 0;
+    }
+    .info__col .blue__link{
+        margin-bottom: 15px;
+    }
+    .info__work-title{
+        margin-bottom: 10px;
+    }
+    .info__inner{
+        justify-content: space-between;
+    }
+    .info__work{
+        margin-right: 15px;
+        margin-top: 0;
+    }
+    .contacts__map-block{
+        width: 100%;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .footer__bottom-inner{
+        flex-direction: column;
+    }
+    .footer__bottom-info{
+        margin-top: 50px;
+    }
+    .footer__bottom-block{
+        margin-right: 0;
+        max-width: 100%;
+    }
+}
+
+@media(max-width: 689px){
+    .top__title{
+        max-width: 300px;
+    }
+    .why__inner{
+        flex-direction: column;
+    }
+    .why__item{
+        max-width: 100%;
+    }
+    .top__text{
+        position: absolute;
+        bottom: -140px;
+        width: 100%;
+    }
+    .top__btn{
+        bottom: -205px;
+        position: absolute;
+        max-width: 90%;
+        width: 100%;;
+    }
+    .top{
+        .container-fluid{
+            position: relative;
+        }
+    }
+    .top__inner{
+        margin-bottom: 270px;
+    }
+}
+
+@media(max-width: 689px){
+    .map{
+        font-size: 16px;
+    }
+    .awards__text{
+        max-width: 100%;
+        margin-top: 15px;
+    }
+    .support__item{
+        max-width: 100%;
+    }
+    .why__inner{
+        margin-bottom: 0;
+    }
+}
+
+@media(max-width: 650px){
+    .info{
+        margin-bottom: 30px;
+    }
+    .info__inner{
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 630px){
+    .trip__item{
+        flex-direction: column;
+        margin-bottom: 30px;
+        text-align: center;
+        &-img{
+            margin: 0 auto;
+            margin-bottom: 5px;
+            max-height: 100%;
+        }
+        &-text{
+            margin: 0 auto;
+        }
+        &-title{
+            line-height: 20px;
+        }
+    }
+    .header__menu.fixed{
+        .header__menu-inner{
+            .header__menu-number{
+                display: block;
+            }
+            .logo{
+                display: none !important;
+            }
+        }
+    }
+    .advantages{
+        margin-bottom: 600px;
+    }
+    .advantages__busines {
+        bottom: -65%;
+    }
+}
+
+@media(max-width: 600px){
+    .reviews__slider{
+        padding-top: 100px;
+    }
+    .reviews__inner{
+        &::before{
+            width: 30%;
+        }
+    }
+    .partners .container{
+        padding: 0 10px;
+    }
+    .partners__item{
+        max-width: 33.33%;
+        padding: 0 5px;
+        margin-bottom: 10px;
+    }
+    .fancybox-slide{
+        overflow: hidden;
+    }
+    .task__item{
+        margin-bottom: 25px;
+    }
+    .footer__block-title{
+        font-size: 32px;
+    }
+    .advantages__busines-text{
+        font-size: 15px;
+    }
+    .task__btn{
+        width: 100%;
+    }
+    .city__item{
+        max-width: 50%;
+    }
+    .video__frame{
+        iframe{     
+            height: auto;
+        }
+    }
+    .modules__item{
+        max-width: 100%;
+    }
+    .instruction__col{
+        p{
+            font-size: 15px;
+        }
+    }
+    .instruction__col-title{
+        margin-bottom: 10px;
+    }
+    .menu-btn__text,
+    .header__menu-number,
+    .about__text-col,
+    .instruction__col{
+        font-size: 15px;
+    }
+
+    .task__item-number,
+    .contract__title{
+        font-size: 32px;
+        line-height: 29px;
+    }
+    .task__item-text{
+        font-size: 15px;
+    }
+    .task__item{
+        max-width: 48%;
+    }
+    .task__items{
+        justify-content: space-between;
+    }
+}
+
+@media(max-width: 560px){
+    .documents-info__col{
+        span{
+            display: none;
+        }
+    }
+}
+
+@media(max-width: 500px){
+    .reviews__text{
+        margin-bottom: -50px;
+    }
+    .reviews__inner{
+        &::before{
+            width: 20%;
+        }
+    }
+    .map__img{
+        height: 400px;
+    }
+    .header__menu-login{
+        a{
+            padding: 8px 14px !important;
+        }
+    }
+    .footer__inner{
+        .container{
+            padding: 0;
+        }
+        .footer__col{
+            padding: 20px;
+        }
+    }
+    .footer__bottom{
+        button{
+            max-width: 100%;
+        }
+        &-info{
+            padding-left: 20px;
+        }
+    }
+    .why__item:last-child .why__item-title{
+        max-width: 100%;
+    }
+    .why__item-title{
+        margin-bottom: 15px !important;
+    }
+    .why__item-line{
+        margin-bottom: 10px !important;
+    }
+    .reservation__inner{
+        padding-bottom: 0;
+    }
+    .footer__col{
+        max-width: 100%;
+        padding-top: 20px;
+        margin-left: 0 !important;
+        padding-bottom: 20px;
+        margin-bottom: 0;
+        ul{
+            margin-top: 10px;
+            display: none;  
+        }
+        &-title{
+            margin-bottom: 0;
+            cursor: pointer;
+            position: relative;
+            div{
+                display: inline;    
+            }
+            svg{
+                transform: rotate(-90deg);
+                display: block;
+                position: absolute;
+                top: 0;
+                right: 5px;
+                path{
+                    stroke: #fff;
+                }
+            }
+            &.active{
+                svg{
+                    transform: rotate(90deg);
+                    path{
+                        stroke: $green;
+                    }
+                }
+            }
+        }
+        & + .footer__col{
+            border-top: 1px solid #000;
+        }
+    }
+    .header__top-city span{
+        display: none;
+    }
+    .footer__box{
+        flex-direction: column;
+    }
+    .services__item-title{
+        margin-bottom: 10px !important;
+    }
+    .services__item-text{
+        margin-bottom: 10px !important;
+    }
+    #serv-l{
+        .services__item-title{
+            margin-bottom: -15px !important;
+        }
+        .services__item-text{
+            margin-bottom: 10px !important;
+        }
+    }
+    #serv-2{
+        .services__item-text{
+            margin-bottom: -15px !important;
+        }
+    }
+    .buy__content{
+        flex-direction: column;
+    }
+    .buy__col{
+        max-width: 100%;
+        margin-right: 0 !important;
+    }
+    .text{
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .contacts__map-block{
+        padding: 20px;
+    }
+    .director__self{
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 15px;
+    }
+    .header__menu-login{
+        margin-left: 20px;
+    }
+    .header__menu.fixed{
+        .header__menu-inner{
+            .header__menu-number{
+                display: none;
+            }
+        }
+    }
+    .header__top-city div{
+        display: none;
+    }
+    .footer__bottom{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .services__item-title{
+        max-width: 200px;
+    }
+    .advantages{
+        margin-bottom: 1225px;
+        position: relative;
+    }
+    .advantages__busines{
+        bottom: -1140px;
+    }
+    .advantages__box{
+        position: absolute;
+        bottom: -410px;
+    }
+    .advantages__inner{
+        height: 378px;
+        padding-top: 45px;
+    }
+    .advantages__title{
+        max-width: 311px;
+    }
+    .task__textblock{
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+    .reservation__blok{
+        text-align: left !important;
+    }
+   
+    .top__title,
+    .trips__title,
+    .reservation__title,
+    .why__title,
+    .support__title,
+    .documents-info__title,
+    .advantages__title,
+    .services__title,
+    .error-404__title,
+    .title,
+    .modules__title,
+    .bilet__title,
+    .buy__title,
+    .dop-services__title,
+    .video__title,
+    .reviews__title,
+    .partners__title{
+        font-size: 32px;
+        line-height: 39px;
+    }
+    .trips__title{
+        margin-bottom: 15px;
+    }
+    .trips__item{
+        max-width: 205px !important;
+        img{
+            width: 205px;
+        }
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        &-img{
+            margin-bottom: 5px;
+        }
+        &-title{
+            margin-bottom: 5px;
+        }
+        li{
+            margin-bottom: 5px !important;
+        }
+    }
+    .trips__item:nth-child(even){
+        margin-left: 5px !important;
+    }
+    .task__title,
+    .contract__title,
+    .contract__line{
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .footer__inner{
+        padding: 0 !important;
+    }
+}
+
+@media(max-width: 480px){
+    
+    .reviews__counter{
+        font-size: 30px;
+    }
+    .reviews .slick-arrow{
+        font-size: 35px;  
+        top: 55px !important;  
+    }
+    .partners{
+        margin-bottom: 30px;
+    }
+    .advantages__block{
+        margin-bottom: 20px;
+    }
+    .why__item-inner{
+        padding-top: 15px !important;
+    }
+    .video__title{
+        margin-bottom: 15px;
+    }
+    .buy__title{
+        margin-bottom: 15px;
+    }
+    .buy__inner{
+        padding-bottom: 0px;
+    }
+    .modules{
+        margin-bottom: 10px;
+    }
+    .modules__title{
+        margin-bottom: 15px;
+    }
+    .modules__text{
+        margin-bottom: 15px;
+    }
+    .director__title{
+        font-size: 18px;
+    }
+    .why__item-line{
+        padding-left: 32px;
+    }
+    .reservation__blok{
+        padding-left: 20px;
+    }
+    .why__item{
+        .black-line{
+            padding-left: 33px;
+            &::before{
+                display: block;
+            }
+        }
+        .green-check{
+            padding-left: 33px;
+            &::before{
+                display: block;
+            }
+        }
+    }
+    .reservation__img{
+        width: 420px;
+        height: 241px;
+    }
+    .reservation__box{
+        bottom: -670px;
+    }
+    .advantages{
+        margin-bottom: 1100px;
+    }
+    .advantages__busines{
+        bottom: -1050px;
+    }
+    .services__item-text{
+        max-width: 240px;
+    }
+
+}
+
+@media(max-width: 479px){
+    .reviews__inner{
+        &::before{
+            width: 0;
+        }
+    }
+    .instruction__col-title{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .header__top-inner{
+        .logo{
+            margin-right: 10px;
+            img{
+                width: 150px;
+            }
+        }
+    }
+    .header__menu-number.top{
+        display: block;
+        margin: 0 !important;
+    }
+    .header__top{
+        .logo{
+            position: absolute;
+            left: 50%;
+            top: 15px;
+            transform: translateX(-50%);
+        }
+        &-inner{
+            height: 130px;
+        }
+    }
+    .header__menu-number{
+        display: none;
+    }
+}
+
+@media(max-width: 472px){
+    .advantages{
+        margin-bottom: 1225px;
+    }
+    .advantages__busines{
+        bottom: -1140px;
+    }
+    .green-btn{
+        a{
+            padding: 17px 10px;
+        }
+    }
+    .advantages__link{
+        max-width: 320px;
+    }
+    .trips__item{
+        margin-bottom: 30px;
+        max-width: 100% !important;
+        &-img{
+            margin-bottom: 5px;
+        }
+        img{
+            max-width: 100% !important;
+            width: 100%;
+        }
+        ul{
+            display: none;
+        }
+    }
+
+}
+
+@media(max-width: 460px){
+    .reservation__img{
+        width: 350px;
+        height: 200px;
+    }
+}
+
+@media(max-width: 450px){
+    .reservation__blok{
+        padding-left: 0;
+    }
+    .reservation__box{
+        bottom: -665px;
+    }
+    .reservation{
+        padding-bottom: 580px !important;
+    }
+    .city__item{
+        max-width: 100%;
+    }
+    .trip__item{
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+    .advantages{
+        margin-bottom: 1250px;
+        position: relative;
+    }
+    .advantages__busines{
+        bottom: -1220px;
+    }
+}
+
+@media(max-width: 425px){
+    .next-arrow{
+        right: 10px !important;
+    }
+    .prev-arrow{
+        left: 10px !important;
+    }
+    
+    .reservation__box{
+        bottom: -675px;
+    }
+    .reservation{
+        padding-bottom: 610px !important;
+    }
+    .documents__content{
+        justify-content: center;
+    }
+    .documents__items{
+        margin-bottom: 0;
+    }
+}
+
+
+@media(max-width: 420px){
+    .map__img{
+        height: 350px;
+    }
+    .title,
+    .about__text{
+        margin-bottom: 15px;
+    }
+    .error-404__text{
+        font-size: 18px;
+    }
+    .footer__bottom-tel,
+    .info__col-number{
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .footer__block-title{
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .documents-info__colm
+    .contract__content{
+        p{
+            font-size: 15px !important;
+        }
+    }
+
+    .support__item-text,
+    .advantages__text,
+    .advantages__block,
+    .advantages__busines-title{
+        font-size: 15px;
+    }
+    .advantages__busines-line{
+        font-size: 15px;
+        line-height: 20px;
+        span{
+            font-size: 20px;
+        }
+    }
+    .task__item-number{
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .reservation__title,
+    .why__title{
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .reservation__img{
+        margin-left: -2px;
+    }
+}
+
+@media(max-width: 410px){
+    .reservation__box{
+        bottom: -685px;
+    }
+    .reservation{
+        padding-bottom: 616px !important;
+    }
+
+}
+
+@media(max-width: 410px){
+    .partners__title{
+        font-size: 24px;
+    }
+    .footer__col-title div{
+        display: block;
+    }
+    .top__text{
+        max-width: 280px;
+        bottom: -170px;
+    }
+    .top__btn{
+        bottom: -220px;
+    }
+}
+
+@media(max-width: 390px){
+    .reservation__box{
+        bottom: -705px;
+    }
+    .reservation{
+        padding-bottom: 635px !important;
+    }
+}
+
+@media(max-width: 380px){
+    .why__item{
+        .black-line{
+            padding-left: 0;
+            &::before{
+                display: none;
+            }
+        }
+        .green-check{
+            padding-left: 0;
+            &::before{
+                display: none;
+            }
+        }
+    }
+    .why__item-line{
+        padding-left: 0;
+    }
+    .reservation__box{
+        bottom: -710px;
+    }
+    .reservation{
+        padding-bottom: 640px !important;
+    }
+
+}
+
+@media(max-width: 375px){
+    .partners__title{
+        margin-bottom: 35px !important;
+    }
+    .reviews__text{
+        margin-bottom: -75px;
+    }
+    .advantages__title {
+        max-width: 220px;
+    }
+    .advantages__busines-text .p-first{
+        margin-top: 22px;
+        margin-bottom: 30px;
+    }
+    .p-sec{
+        margin-top: 2px;
+        margin-bottom: 35px !important;
+    }
+    .advantages__busines-line{
+        margin-top: 42px;
+    }
+    .advantages__busines-line span{
+        margin-bottom: 5px;
+    }
+    .advantages__busines-img{
+        margin-left: -15px;
+        margin-right: 15px;
+        img{
+            height: 350px;
+        }
+    }
+    .advantages__link{
+        max-width: 335px;
+        width: 88%;
+    }
+    .top__title,
+    .trips__title,
+    .support__title,
+    .documents-info__title,
+    .advantages__title,
+    .services__title,
+    .error-404__title,
+    .title,
+    .modules__title,
+    .bilets__title,
+    .buy__title,
+    .dop-services__title,
+    .video__title,
+    .reviews__title,
+    .partners__title{
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .advantages__busines{
+        bottom: -1105px;
+    }
+    .advantages{
+        margin-bottom: 1120px;
+    }
+    .top__title{
+        max-width: 161px;
+    }
+}
+
+
+@media(max-width: 370px){
+   
+    .advantages__busines-img{
+        img{
+            height: 350px;
+        }
+    }
+    .advantages__busines-text .p-first{
+        margin-top: 22px;
+        margin-bottom: 35px;
+    }
+    .p-sec{
+        margin-top: 11px;
+        margin-bottom: 35px !important;
+    }
+    .map__img{
+        height: 300px;
+    }
+    .reservation__img {
+        width: 300px;
+        height: 170px;
+    }
+    .reservation__box{
+        bottom: -730px;
+    }
+    .reservation{
+        padding-bottom: 660px !important;
+    }
+    .header__menu-login{
+        margin-left: 0;
+    }
+    .online__block-line{
+        flex-direction: column;
+    }
+    .online__block-check{
+        margin-bottom: 10px;
+    }
+    .online__block-title{
+        font-size: 24px;
+    }
+    .blue-btn a{
+        padding: 20px 15px;
+    }
+    .header__menu-login a{
+        font-size: 12px;
+    }
+    .services__item-img{
+        display: none;
+    }
+    .advantages__busines-text,
+    .advantages__busines-line{
+        line-height: 20px;
+    }
+    .task__title{
+        font-size: 20px;
+        line-height: 30px;
+    }
+     .advantages__busines-text .p-first{
+        margin-top: 22px;
+        margin-bottom: 35px;
+    }
+    .p-sec{
+        margin-top: 11px;
+        margin-bottom: 35px !important;
+    }
+    .advantages__busines-line{
+        margin-top: 10px;
+    }
+    .advantages__busines-line span{
+        margin-bottom: 5px;
+    }
+    .advantages__busines-img{
+        margin-left: -15px;
+        margin-right: 15px;
+        img{
+            height: 322px;
+        }
+    }
+    
+}
+
+@media(max-width: 364px){
+    .advantages__busines{
+        bottom: -1078px;
+    }
+    .reservation__box{
+        bottom: -730px;
+    }
+    .reservation{
+        padding-bottom: 660px !important;
+    }
+}
+
+@media(max-width: 360px){
+    .reservation__box{
+        bottom: -760px;
+    }
+    .reservation{
+        padding-bottom: 690px !important;
+    }
+}
+
+@media(max-width: 356px){
+    .reservation__box{
+        bottom: -745px;
+    }
+    .reservation{
+        padding-bottom: 680px !important;
+    }
+}
+
+@media(max-width: 350px){
+    .advantages__busines{
+        bottom: -1070px;
+    }
+    .reservation ul{
+        margin-bottom: 0;
+    }
+    .footer__bottom{    
+        &-info{
+            padding-left: 0;
+        }
+    }
+    .reservation{
+        padding-bottom: 710px !important;
+    }
+    .advantages__box{
+        bottom: -410px;
+    }
+    .reservation__box{
+        bottom: -780px;
+    }
+}
+
+@media(max-width: 350px){
+    .footer__bottom-block {
+        padding: 30px 15px;
+    }
+    .advantages__inner{
+        height: 250px;
+    }
+    .why__item{
+        p{
+            font-size: 15px;
+        }
+    }
+    .top__box{
+        padding: 0;
+    }
+    .top__text{
+        font-size: 17px;
+    }
+    .top__btn{
+        max-width: 270px;
+        width: 100%;
+        a{
+            padding: 15px;
+        }
+    }
+    .top__inner{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .blue__link{
+        font-size: 17px;
+    }
+}
+
+@media(max-width: 360px){
+    .reservation__box{
+        bottom: -800px;
+    }
+    .reservation{
+        padding-bottom: 725px !important;
+    }
+}
+
+@media(max-width: 330px){
+    .advantages__busines{
+        bottom: -1085px;
+    }
+}
+
+@media(max-width: 320px){
+    .reviews__text{
+        margin-bottom: -80px;
+    }
+    .advantages__box{
+        bottom: -430px;
+    }
+    .support__title{
+        font-size: 18px;
+    }
+    .reservation__btn {
+        width: 280px !important;
+        a{
+            font-size: 14px;
+        }
+    }
+    .advantages__busines{
+        bottom: -1110px;
+    }
+    .advantages{
+        margin-bottom: 1125px;
+    }
+   
+    .advantages__link{
+        left: 10px;
+        max-width: 298px;
+    }
+    .reservation__img {
+        width: 309px;
+        height: 166px;
+    }
+    .task__item{
+        margin-bottom: 15px;
+    }
+}

@@ -1,0 +1,10 @@
+$blue: #114A91;
+$green: #8AC44B;
+
+@mixin monst {
+    font-family: 'Montserrat', sans-serif;
+}
+
+@mixin sans{
+    font-family: 'PT Sans', sans-serif;
+}

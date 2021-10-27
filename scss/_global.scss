@@ -1,0 +1,45 @@
+html{
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+ul,
+nav{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    overflow-x: hidden;
+    line-height: 25px;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1258px;
+    padding: 0 20px;
+    width: 100%;
+}
+
+.container-fluid{
+    max-width: 1920px;
+    margin: 0 auto;
+}
